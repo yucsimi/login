@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap'
+import { Modal, ModalBody } from 'reactstrap'
 
 import imagen from "../assets/d.png"
 export default function ModalFormulario({ modal, handleSubmit }) {
