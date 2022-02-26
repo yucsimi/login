@@ -7,7 +7,7 @@ const Imagen = () => {
 
         <div className=' principal'>
 
-            <img src={imag} />
+            <img alt='imag' src={imag} />
 
         </div>
     );

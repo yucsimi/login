@@ -26,7 +26,7 @@ const Formulario = () => {
                 <ModalFormulario modal={modal} handleSubmit={handleSubmit} />
                 <form className='d-flex input '>
 
-                    <img className='imagen' src={img} />
+                    <img alt='imagenes' className='imagen' src={img} />
 
                     <h1>!Bienvenidos!</h1>
                     <h3>Complete el Siguente Formulario</h3>
