@@ -1,0 +1,74 @@
+
+.imagen{
+    width: 156px;
+    padding-top: 20px;
+}
+ h1{
+     padding-top: 10px;
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 30px;
+     margin-top: 20px;
+ }
+h3{
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+/* los imput */
+.input{
+flex-direction: column;
+width: 60%;
+margin: 0 auto;
+
+}
+label{
+padding-top: 20px;
+
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 200;
+
+
+}
+input,select{
+    border:2px solid #ccdbed;   
+    outline: none;
+    font-family: sans-serif;
+    color: #B9B7BD;
+    height: 40px;
+
+}
+input::placeholder{
+    font-family: sans-serif;
+    color: #B9B7BD;
+}
+.option{
+    font-size: 60px;
+    background: green;
+}
+
+/* boton */
+.boton{
+background: #F65435;
+width: 171px;
+border: none;
+margin: 20px auto;
+text-align: center;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: 500;
+padding: 8px;
+color: rgb(249, 241, 241);
+border-top-left-radius: 5%;
+border-top-right-radius: 5%;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+}
+
+/* css dek modal */
+.modalCustom{
+    font-family: sans-serif;
+    background: rgb(223, 214, 214);
+    border-radius: 20px;
+}

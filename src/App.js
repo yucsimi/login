@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Formulario from './Componentes/Formulario';
+import Imagen from './Componentes/Imagen';
+import Footer from './Componentes/Footer';
+import './styles/footer.css'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="row m-0">
+
+      <div className='col-md-6'>
+
+        <Formulario />
+      </div>
+      <div className='col-md-6 '>
+        <Imagen />
+
+      </div>
+      <div className='col-md-12 F'>
+        <Footer />
+      </div>
+
+
+
+
     </div>
   );
 }
